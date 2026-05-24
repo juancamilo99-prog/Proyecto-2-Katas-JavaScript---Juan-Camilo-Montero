@@ -25,3 +25,11 @@ let sumaProductoA = 10;
 let sumaProductoB = 5;
 let sumaTotalProductos = sumaProductoA+sumaProductoB;
 console.log(sumaTotalProductos);
+
+// 3.5 Usa el correcto operador de asignación que resultará en i = 50,
+// teniendo dos variables c = 10 y m = 5.
+
+let multiplcarProductoA = 10;
+let multiplicarProductoB = 5;
+let multiplicarTotalProducto = multiplcarProductoA*multiplicarProductoB;
+console.log(multiplicarTotalProducto);
