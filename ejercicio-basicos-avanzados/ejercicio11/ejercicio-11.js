@@ -21,11 +21,15 @@ function averageWord(list) {
   let stringArray = "";
 
   for(let i=0; i<list.length; i++){
-    if(typeof list.length !== "string"){
-        console.log(list[i]);
+    if(typeof list[i] !== "string"){
+        numberArray += list[i]; 
+    }else {
+      stringArray += list[i].length;
     }
   }
-  //console.log(numberArray);
+
+  console.log("numberArray: ", numberArray);
+  console.log("stringArray: ", stringArray);
 }
 
 averageWord(mixedElements);
