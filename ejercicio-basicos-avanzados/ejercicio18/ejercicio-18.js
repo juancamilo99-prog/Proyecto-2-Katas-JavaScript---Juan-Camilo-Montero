@@ -11,9 +11,8 @@ const placesToTravel = [
   { id: 59, name: "Madagascar" },
 ];
 
-placesToTravel.forEach(element => {
-    for (const key in element) {
-        console.log(key +":"+ element[key]);
-    }
-});
+    
+    const newArray = placesToTravel.filter(place => place.id !==5 && place.id !== 11);
+    console.log(newArray);
+
 
